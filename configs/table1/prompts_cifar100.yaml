@@ -1,0 +1,20 @@
+# Table 1: prefix prompts (length 20, all 12 blocks) + STABLE on CIFAR-100, 50 tasks.
+method: prompts
+dataset: cifar100
+num_tasks: 50
+epochs: 20
+batch_size: 24
+seed: 42
+lr: 5.0e-4
+weight_decay: 1.0e-4
+betas: [0.9, 0.999]
+eps: 1.0e-8
+prompt_length: 20
+grad_clip_norm: 1.0
+drift_budget_sq: 7.0  # squared drift budget tau^2 (tau = 2.646), or "auto"
+dual_lr: 0.03
+lambda_init: 1.0
+deadzone: 0.05
+violation_memory: false
+wncm_shrinkage: 0.07
+num_workers: 10  # worker seeds drive the augmentation; keep 10 to reproduce Table 1

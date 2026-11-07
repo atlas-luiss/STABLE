@@ -1,0 +1,20 @@
+# Table 1: LoRA (rank 8) + STABLE on ImageNet-A-100, 50 tasks.
+method: lora
+dataset: imagenet_a
+num_tasks: 50
+epochs: 50
+batch_size: 24
+seed: 42
+lr: 5.0e-4
+weight_decay: 1.0e-4
+betas: [0.9, 0.999]
+eps: 1.0e-8
+lora_rank: 8
+lora_alpha: 16.0
+drift_budget_sq: 0.022834  # squared drift budget tau^2 (tau = 0.151), or "auto"
+dual_lr: 0.03
+lambda_init: 1.0
+deadzone: 0.05
+violation_memory: true
+wncm_shrinkage: 0.07
+num_workers: 4  # worker seeds drive the augmentation; keep 4 to reproduce Table 1

@@ -1,0 +1,8 @@
+# Versions used for the Table 1 runs (Python 3.12, CUDA 12.8 build of PyTorch).
+torch==2.8.0
+torchvision==0.23.0
+timm==1.0.26
+numpy==2.3.2
+pillow==11.3.0
+PyYAML==6.0.2
+safetensors==0.7.0
