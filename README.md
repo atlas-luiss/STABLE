@@ -3,6 +3,10 @@
 </h1>
 
 <p align="center">
+  <a href="https://arxiv.org/abs/2611.10655"><img src="https://img.shields.io/badge/arXiv-2611.10655-b31b1b.svg" alt="arXiv"></a>
+</p>
+
+<p align="center">
   <a href="https://neurips.cc/virtual/2026/loc/paris/poster/154677"><img src="https://img.shields.io/badge/NeurIPS-2026-4b44ce.svg" alt="NeurIPS 2026"></a>
 </p>
 
@@ -267,10 +271,13 @@ for task in stream:
 
 ```bibtex
 @inproceedings{li2026stable,
-  title     = {{STABLE}: A Continual Learning Optimizer with Adaptive Drift Control},
-  author    = {Li, Xiaoyan and Li, Lanpei and Coppola, Massimo and Lomonaco, Vincenzo and Carta, Antonio},
-  booktitle = {Advances in Neural Information Processing Systems},
-  year      = {2026}
+  title         = {{STABLE}: A Continual Learning Optimizer with Adaptive Drift Control},
+  author        = {Li, Xiaoyan and Li, Lanpei and Coppola, Massimo and Lomonaco, Vincenzo and Carta, Antonio},
+  booktitle     = {Advances in Neural Information Processing Systems},
+  year          = {2026},
+  eprint        = {2611.10655},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.LG}
 }
 ```
 
