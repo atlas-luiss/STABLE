@@ -24,6 +24,14 @@
   <sup>3</sup>ISTI, National Research Council of Italy (CNR)
 </p>
 
+
+
+https://github.com/user-attachments/assets/98d9b198-4686-459a-b366-c39d741694b7
+
+
+
+<p align="center"><em>STABLE in 30 seconds: forgetting after task switches, the drift budget with its adaptive pullback, and the main results.</em></p>
+
 Official implementation of **STABLE** (Stabilizing Training Adaptation with Budgeted Lagrangian
 Enforcement), accepted at the
 [40th Conference on Neural Information Processing Systems (NeurIPS 2026)](https://neurips.cc/Conferences/2026).
